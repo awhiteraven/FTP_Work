@@ -16,7 +16,7 @@
                BlueprintIdentifier = "4200EB5615ACDF54000C9715"
                BuildableName = "Medius FTP.app"
                BlueprintName = "Medius FTP"
-               ReferencedContainer = "container:NSOperationQueueTest.xcodeproj">
+               ReferencedContainer = "container:Medius FTP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,7 +34,7 @@
             BlueprintIdentifier = "4200EB5615ACDF54000C9715"
             BuildableName = "Medius FTP.app"
             BlueprintName = "Medius FTP"
-            ReferencedContainer = "container:NSOperationQueueTest.xcodeproj">
+            ReferencedContainer = "container:Medius FTP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,7 +53,7 @@
             BlueprintIdentifier = "4200EB5615ACDF54000C9715"
             BuildableName = "Medius FTP.app"
             BlueprintName = "Medius FTP"
-            ReferencedContainer = "container:NSOperationQueueTest.xcodeproj">
+            ReferencedContainer = "container:Medius FTP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,7 +71,7 @@
             BlueprintIdentifier = "4200EB5615ACDF54000C9715"
             BuildableName = "Medius FTP.app"
             BlueprintName = "Medius FTP"
-            ReferencedContainer = "container:NSOperationQueueTest.xcodeproj">
+            ReferencedContainer = "container:Medius FTP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

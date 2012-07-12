@@ -19,15 +19,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4200EB5715ACDF54000C9715 /* NSOperationQueueTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationQueueTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4200EB5715ACDF54000C9715 /* Medius FTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medius FTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4200EB5B15ACDF54000C9715 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4200EB5E15ACDF54000C9715 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4200EB5F15ACDF54000C9715 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4200EB6015ACDF54000C9715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4200EB6315ACDF54000C9715 /* NSOperationQueueTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSOperationQueueTest-Info.plist"; sourceTree = "<group>"; };
+		4200EB6315ACDF54000C9715 /* Medius FTP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Medius FTP-Info.plist"; sourceTree = "<group>"; };
 		4200EB6515ACDF54000C9715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4200EB6715ACDF54000C9715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4200EB6915ACDF54000C9715 /* NSOperationQueueTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueueTest-Prefix.pch"; sourceTree = "<group>"; };
+		4200EB6915ACDF54000C9715 /* Medius FTP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Medius FTP-Prefix.pch"; sourceTree = "<group>"; };
 		4200EB6B15ACDF54000C9715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		4200EB6D15ACDF54000C9715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4200EB6E15ACDF54000C9715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		4200EB5815ACDF54000C9715 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4200EB5715ACDF54000C9715 /* NSOperationQueueTest.app */,
+				4200EB5715ACDF54000C9715 /* Medius FTP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,10 +106,10 @@
 		4200EB6215ACDF54000C9715 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4200EB6315ACDF54000C9715 /* NSOperationQueueTest-Info.plist */,
+				4200EB6315ACDF54000C9715 /* Medius FTP-Info.plist */,
 				4200EB6415ACDF54000C9715 /* InfoPlist.strings */,
 				4200EB6715ACDF54000C9715 /* main.m */,
-				4200EB6915ACDF54000C9715 /* NSOperationQueueTest-Prefix.pch */,
+				4200EB6915ACDF54000C9715 /* Medius FTP-Prefix.pch */,
 				4200EB6A15ACDF54000C9715 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -132,7 +132,7 @@
 			);
 			name = "Medius FTP";
 			productName = NSOperationQueueTest;
-			productReference = 4200EB5715ACDF54000C9715 /* NSOperationQueueTest.app */;
+			productReference = 4200EB5715ACDF54000C9715 /* Medius FTP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = aWhiteRaven;
 			};
-			buildConfigurationList = 4200EB5115ACDF54000C9715 /* Build configuration list for PBXProject "NSOperationQueueTest" */;
+			buildConfigurationList = 4200EB5115ACDF54000C9715 /* Build configuration list for PBXProject "Medius FTP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,8 +268,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSOperationQueueTest/NSOperationQueueTest-Prefix.pch";
-				INFOPLIST_FILE = "NSOperationQueueTest/NSOperationQueueTest-Info.plist";
+				GCC_PREFIX_HEADER = "NSOperationQueueTest/Medius FTP-Prefix.pch";
+				INFOPLIST_FILE = "NSOperationQueueTest/Medius FTP-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,8 +279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSOperationQueueTest/NSOperationQueueTest-Prefix.pch";
-				INFOPLIST_FILE = "NSOperationQueueTest/NSOperationQueueTest-Info.plist";
+				GCC_PREFIX_HEADER = "NSOperationQueueTest/Medius FTP-Prefix.pch";
+				INFOPLIST_FILE = "NSOperationQueueTest/Medius FTP-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4200EB5115ACDF54000C9715 /* Build configuration list for PBXProject "NSOperationQueueTest" */ = {
+		4200EB5115ACDF54000C9715 /* Build configuration list for PBXProject "Medius FTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4200EB7315ACDF54000C9715 /* Debug */,
