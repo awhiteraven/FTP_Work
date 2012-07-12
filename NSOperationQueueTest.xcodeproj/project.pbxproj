@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4200EB5C15ACDF54000C9715 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4200EB5B15ACDF54000C9715 /* Cocoa.framework */; };
+		4200EB6615ACDF54000C9715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4200EB6415ACDF54000C9715 /* InfoPlist.strings */; };
+		4200EB6815ACDF54000C9715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4200EB6715ACDF54000C9715 /* main.m */; };
+		4200EB6C15ACDF54000C9715 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4200EB6A15ACDF54000C9715 /* Credits.rtf */; };
+		4200EB6F15ACDF54000C9715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4200EB6E15ACDF54000C9715 /* AppDelegate.m */; };
+		4200EB7215ACDF54000C9715 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4200EB7015ACDF54000C9715 /* MainMenu.xib */; };
+		4200EB7A15ACE0E6000C9715 /* SomeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4200EB7915ACE0E6000C9715 /* SomeObject.m */; };
+		42428B7215AE185F00B3048E /* Medius.icns in Resources */ = {isa = PBXBuildFile; fileRef = 42428B7115AE185F00B3048E /* Medius.icns */; };
+		42FA5B1A15AD1B9100B27F89 /* AnObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA5B1915AD1B9100B27F89 /* AnObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4200EB5715ACDF54000C9715 /* NSOperationQueueTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationQueueTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4200EB5B15ACDF54000C9715 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4200EB5E15ACDF54000C9715 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4200EB5F15ACDF54000C9715 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4200EB6015ACDF54000C9715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4200EB6315ACDF54000C9715 /* NSOperationQueueTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSOperationQueueTest-Info.plist"; sourceTree = "<group>"; };
+		4200EB6515ACDF54000C9715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4200EB6715ACDF54000C9715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4200EB6915ACDF54000C9715 /* NSOperationQueueTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueueTest-Prefix.pch"; sourceTree = "<group>"; };
+		4200EB6B15ACDF54000C9715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4200EB6D15ACDF54000C9715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4200EB6E15ACDF54000C9715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4200EB7115ACDF54000C9715 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4200EB7815ACE0E6000C9715 /* SomeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SomeObject.h; path = ../SomeObject.h; sourceTree = "<group>"; };
+		4200EB7915ACE0E6000C9715 /* SomeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SomeObject.m; path = ../SomeObject.m; sourceTree = "<group>"; };
+		42428B7115AE185F00B3048E /* Medius.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Medius.icns; sourceTree = "<group>"; };
+		42FA5B1815AD1B9100B27F89 /* AnObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnObject.h; sourceTree = "<group>"; };
+		42FA5B1915AD1B9100B27F89 /* AnObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4200EB5415ACDF54000C9715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4200EB5C15ACDF54000C9715 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4200EB4C15ACDF54000C9715 = {
+			isa = PBXGroup;
+			children = (
+				42428B7115AE185F00B3048E /* Medius.icns */,
+				4200EB6115ACDF54000C9715 /* NSOperationQueueTest */,
+				4200EB5A15ACDF54000C9715 /* Frameworks */,
+				4200EB5815ACDF54000C9715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4200EB5815ACDF54000C9715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4200EB5715ACDF54000C9715 /* NSOperationQueueTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4200EB5A15ACDF54000C9715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4200EB5B15ACDF54000C9715 /* Cocoa.framework */,
+				4200EB5D15ACDF54000C9715 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4200EB5D15ACDF54000C9715 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4200EB5E15ACDF54000C9715 /* AppKit.framework */,
+				4200EB5F15ACDF54000C9715 /* CoreData.framework */,
+				4200EB6015ACDF54000C9715 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4200EB6115ACDF54000C9715 /* NSOperationQueueTest */ = {
+			isa = PBXGroup;
+			children = (
+				4200EB7815ACE0E6000C9715 /* SomeObject.h */,
+				4200EB7915ACE0E6000C9715 /* SomeObject.m */,
+				42FA5B1815AD1B9100B27F89 /* AnObject.h */,
+				42FA5B1915AD1B9100B27F89 /* AnObject.m */,
+				4200EB6D15ACDF54000C9715 /* AppDelegate.h */,
+				4200EB6E15ACDF54000C9715 /* AppDelegate.m */,
+				4200EB7015ACDF54000C9715 /* MainMenu.xib */,
+				4200EB6215ACDF54000C9715 /* Supporting Files */,
+			);
+			path = NSOperationQueueTest;
+			sourceTree = "<group>";
+		};
+		4200EB6215ACDF54000C9715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4200EB6315ACDF54000C9715 /* NSOperationQueueTest-Info.plist */,
+				4200EB6415ACDF54000C9715 /* InfoPlist.strings */,
+				4200EB6715ACDF54000C9715 /* main.m */,
+				4200EB6915ACDF54000C9715 /* NSOperationQueueTest-Prefix.pch */,
+				4200EB6A15ACDF54000C9715 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4200EB5615ACDF54000C9715 /* Medius FTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4200EB7515ACDF54000C9715 /* Build configuration list for PBXNativeTarget "Medius FTP" */;
+			buildPhases = (
+				4200EB5315ACDF54000C9715 /* Sources */,
+				4200EB5415ACDF54000C9715 /* Frameworks */,
+				4200EB5515ACDF54000C9715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medius FTP";
+			productName = NSOperationQueueTest;
+			productReference = 4200EB5715ACDF54000C9715 /* NSOperationQueueTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4200EB4E15ACDF54000C9715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = aWhiteRaven;
+			};
+			buildConfigurationList = 4200EB5115ACDF54000C9715 /* Build configuration list for PBXProject "NSOperationQueueTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4200EB4C15ACDF54000C9715;
+			productRefGroup = 4200EB5815ACDF54000C9715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4200EB5615ACDF54000C9715 /* Medius FTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4200EB5515ACDF54000C9715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4200EB6615ACDF54000C9715 /* InfoPlist.strings in Resources */,
+				4200EB6C15ACDF54000C9715 /* Credits.rtf in Resources */,
+				4200EB7215ACDF54000C9715 /* MainMenu.xib in Resources */,
+				42428B7215AE185F00B3048E /* Medius.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4200EB5315ACDF54000C9715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4200EB6815ACDF54000C9715 /* main.m in Sources */,
+				4200EB6F15ACDF54000C9715 /* AppDelegate.m in Sources */,
+				4200EB7A15ACE0E6000C9715 /* SomeObject.m in Sources */,
+				42FA5B1A15AD1B9100B27F89 /* AnObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4200EB6415ACDF54000C9715 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4200EB6515ACDF54000C9715 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4200EB6A15ACDF54000C9715 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4200EB6B15ACDF54000C9715 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4200EB7015ACDF54000C9715 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4200EB7115ACDF54000C9715 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4200EB7315ACDF54000C9715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4200EB7415ACDF54000C9715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4200EB7615ACDF54000C9715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSOperationQueueTest/NSOperationQueueTest-Prefix.pch";
+				INFOPLIST_FILE = "NSOperationQueueTest/NSOperationQueueTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4200EB7715ACDF54000C9715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSOperationQueueTest/NSOperationQueueTest-Prefix.pch";
+				INFOPLIST_FILE = "NSOperationQueueTest/NSOperationQueueTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4200EB5115ACDF54000C9715 /* Build configuration list for PBXProject "NSOperationQueueTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4200EB7315ACDF54000C9715 /* Debug */,
+				4200EB7415ACDF54000C9715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4200EB7515ACDF54000C9715 /* Build configuration list for PBXNativeTarget "Medius FTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4200EB7615ACDF54000C9715 /* Debug */,
+				4200EB7715ACDF54000C9715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4200EB4E15ACDF54000C9715 /* Project object */;
+}
